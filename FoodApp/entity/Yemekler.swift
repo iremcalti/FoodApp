@@ -1,0 +1,22 @@
+//
+//  Yemekler.swift
+//  FoodApp
+//
+//  Created by İrem Çaltı on 21.05.2022.
+//
+
+import Foundation
+
+class Yemekler : Codable {
+    var sepet_yemek_id:String?
+    var yemek_adi:String?
+    var yemek_resim_adi:String?
+    var yemek_fiyat:String?
+    
+    init(sepet_yemek_id:String,yemek_adi:String,yemek_resim_adi:String,yemek_fiyat:String){
+        self.sepet_yemek_id = sepet_yemek_id
+        self.yemek_adi = yemek_adi
+        self.yemek_resim_adi = yemek_resim_adi
+        self.yemek_fiyat = yemek_fiyat
+    }
+}
